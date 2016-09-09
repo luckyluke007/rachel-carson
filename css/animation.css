@@ -1499,12 +1499,12 @@ html {
     0% {
       margin: 6em 0 0;
       opacity: 0;
-      width: 700px;
+      width: 750px;
     }
     5% {
       margin: 6em 0 0;
       opacity: .25;
-      width: 700px;
+      width: 750px;
     }
     95% {
       margin: 2em 0 0 -50em;
@@ -1515,6 +1515,52 @@ html {
       margin: 2em 0 0 -50em;
       opacity: 0;
       width: 3000px;
+    }
+  }
+  
+  @keyframes sea-lion {
+    0% {
+      margin: 11.5em 0 0 10em;
+      opacity: .8;
+      width: 25px;
+    }
+    100% {
+      margin: 14em 0 0 -13em;
+      opacity: 1;
+      width: 200px;
+    } 
+  }
+  
+  @keyframes natural-bridges-ani {
+    0% {
+      margin: 11.75em 10em 0 0;
+      opacity: .6;
+      width: 50px;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      margin: 16em -31em 0 0;
+      opacity: 1;
+      width: 500px;
+    }
+  }
+  
+   @keyframes dolphin-jump {
+    0% {
+      left: 85%;
+      margin: 0 0 -8em;
+      opacity: 1;
+      width: 200px;
+      transform:rotate(0);
+    }
+    100% {
+      left: -5%;
+      margin: 0 0 -15.5em;
+      opacity: 1;
+      width: 400px;
+      transform:rotate(-360deg);
     }
   }
   
@@ -1537,6 +1583,13 @@ html {
     }
   }
   
+  .tractor {
+    bottom: 6.5em;
+    height: 191px;
+    width: 300px;
+    z-index: 6;
+  }
+  
   @keyframes land-5-ani {
     0%, 
     100% {
@@ -1547,6 +1600,17 @@ html {
     90% {
       opacity: 1;
       margin: 6.6em 0;
+    }
+  }
+  
+  @keyframes redwoods-slide {
+    0% {
+      bottom:  -15em;
+      opacity: 0;
+    }
+    100% {
+      bottom: -4em;
+      opacity: 1;
     }
   }
 
