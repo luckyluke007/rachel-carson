@@ -2,4 +2,4 @@
 
 Rachel Carson - SVG Animation Billboard
 
-[View Animation »](https://luckyluke007.github.io/rachel-carson/)
+[View Animation »](https://ucsc.github.io/rachel-carson/)
