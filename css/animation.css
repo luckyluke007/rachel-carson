@@ -1101,7 +1101,7 @@ html {
   }
   
   .rachel-text {
-    display: hidden;
+    display: none;
   }
   
   .rachel-text-mobile h1 {
@@ -1457,7 +1457,7 @@ html {
   }
   
   .rachel-text {
-    display: hidden;
+    display: none;
   }
   
   .rachel-text-mobile h1 {
@@ -1643,7 +1643,7 @@ html {
   }
   
   .rachel-text {
-    display: hidden;
+    display: none;
   }
   
   @keyframes redwoods-slide {
