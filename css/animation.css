@@ -809,8 +809,8 @@ html {
       opacity: 1;
     }
     100% {
-      height: 4000.5px;
-      margin: -105em 0 0 -20em;
+      height: 2000.5px;
+      margin: -45em 0 0 -20em;
       width: 2000px;
       opacity: 0;
     }  
@@ -841,7 +841,7 @@ html {
     }
     100% {
       height: 50px;
-      margin: 0em -10em 0 0;
+      margin: 0em -11em 0 0;
       opacity: 1;
       width: 163px;
     } 
