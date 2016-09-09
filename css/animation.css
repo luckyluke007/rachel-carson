@@ -655,7 +655,8 @@ html {
   }
 }
 
-.rachel-text {
+.rachel-text,
+.rachel-text-mobile {
   animation: header-text 2s ease-in-out 23s 1 normal forwards;
   background: #d75c01;
   height: 100%;
@@ -669,7 +670,8 @@ html {
   z-index: 20;
 }
 
-.rachel-text h1 {
+.rachel-text h1,
+.rachel-text-mobile h1 {
   color: #FFF;
   display: block;
   margin: 0 0 0 1.5em;
@@ -680,7 +682,8 @@ html {
   with: 100%;
 }
 
-.rachel-text .teaser {
+.rachel-text .teaser,
+.rachel-text-mobile .teaser {
   color: #FFF;
   float: right;
   display: block;
@@ -1086,7 +1089,7 @@ html {
     margin-left: 0;
   }
   
-  .rachel-text {
+  .rachel-text-mobile {
     animation: header-text 700ms ease-in-out 0s 1 normal forwards;
     background: #d75c01;
     height: auto;
@@ -1097,7 +1100,11 @@ html {
     z-index: 0;
   }
   
-  .rachel-text h1 {
+  .rachel-text {
+    display: hidden;
+  }
+  
+  .rachel-text-mobile h1 {
     font-size: 1.5em;
     margin: 0;
     padding: 0 .25em;
@@ -1105,7 +1112,7 @@ html {
     with: 100%;
   }
 
-  .rachel-text .teaser {
+  .rachel-text-mobile .teaser {
     float: none;
     font-size: .9em;
     margin: 0;
@@ -1438,7 +1445,7 @@ html {
   
   /* Scene 5 min-width: 31.1875em */
   
-  .rachel-text {
+  .rachel-text-mobile {
     animation: header-text 700ms ease-in-out 0s 1 normal forwards;
     background: #d75c01;
     height: 5.75em;
@@ -1449,7 +1456,11 @@ html {
     z-index: 0;
   }
   
-  .rachel-text h1 {
+  .rachel-text {
+    display: hidden;
+  }
+  
+  .rachel-text-mobile h1 {
     font-size: 2em;
     margin: 0;
     padding: 0 .25em;
@@ -1457,7 +1468,7 @@ html {
     with: 100%;
   }
 
-  .rachel-text .teaser {
+  .rachel-text-mobile .teaser {
     float: none;
     font-size: 1em;
     margin: 0;
@@ -1601,6 +1612,38 @@ html {
       opacity: 1;
       margin: 6.6em 0;
     }
+  }
+  
+ .rachel-text-mobile {
+    animation: header-text 700ms ease-in-out 0s 1 normal forwards;
+    background: #d75c01;
+    height: auto;
+    opacity: 0;
+    position: static;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  .rachel-text-mobile h1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0 .25em;
+    text-align: left;
+    with: 100%;
+  }
+
+  .rachel-text-mobile .teaser {
+    float: none;
+    font-size: 1em;
+    margin: 0;
+    padding: .6em .6em 0;
+    max-width: 95%;
+    width: 100%;
+  }
+  
+  .rachel-text {
+    display: hidden;
   }
   
   @keyframes redwoods-slide {
@@ -1783,6 +1826,37 @@ html {
       opacity: 1;
       margin: 7em 0 7em .25em;
     }
+  }
+  
+ .rachel-text-mobile {
+    animation: header-text 700ms ease-in-out 0s 1 normal forwards;
+    height: auto;
+    opacity: 0;
+    position: static;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  .rachel-text-mobile h1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0 .25em;
+    text-align: left;
+    with: 100%;
+  }
+
+  .rachel-text-mobile .teaser {
+    float: none;
+    font-size: 1em;
+    margin: 0;
+    padding: .6em .6em 0;
+    max-width: 95%;
+    width: 100%;
+  }
+  
+  .rachel-text {
+    display: none;
   }
   
   @keyframes redwoods-slide {
@@ -2206,6 +2280,7 @@ html {
   .rachel-text {
     animation: header-text 2s ease-in-out 23s 1 normal forwards;
     background: #d75c01;
+    display: block;
     height: 100%;
     max-height:  6.75em;
     max-width: 1080px;
@@ -2215,6 +2290,10 @@ html {
     top: 26em;
     width: 100%;
     z-index: 20;
+  }
+  
+  .rachel-text-mobile {
+    display: none;
   }
 
   .rachel-text h1 {
@@ -2235,15 +2314,6 @@ html {
     margin: -5.75em 4em 0 0;
     max-width: 350px;
     width: 100%;
-  }
-
-  @keyframes header-text {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
   }
   
   .bird-2 {
