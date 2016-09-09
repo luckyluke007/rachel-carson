@@ -1801,36 +1801,18 @@ html {
 @media screen and (min-width: 60em) {
   
   .billboard-content {
-    background: #ccc;
-    display:  block;
     height: 600px;
-    position: absolute;
     width: 100%;
   }
 
   .billboard-container {
-    background: #00458c;
-    display: block;
     height: 600px;
     max-width: 1080px;
-    overflow: hidden;
-    position: absolute;
     width: 100%;
   }
 
   /*SCENE 1 CSS */
-  .earth {
-    animation-name: earth-zoom;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    position: absolute;
-    z-index: 1;
-  }
-
+  
   @keyframes earth-zoom {
     0% {
       height: 267.5px;
@@ -1846,32 +1828,7 @@ html {
     }  
   }
 
-  /* END SCENE 1 CSS */
-
   /* SCENE 2 */
-  .cloud-one,
-  .cloud-two {
-    display: block;
-    height:  50px;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    width: 163px;
-    z-index: 1000;
-  }
-
-  .cloud-one {
-    animation: cloud-left 7s ease-in-out 3s 1 normal forwards;
-    left: 0;
-  }
-
-
-  .cloud-two {
-    animation: cloud-right 7s ease-in-out 3s 1 normal forwards;
-    transform: scaleX(-1);
-    right: 0;
-  }
-
   @keyframes cloud-left {
     0% {
       height: 50px;
@@ -1902,15 +1859,6 @@ html {
     } 
   }
 
-
-  .seymour-center {
-    animation: seymour-zoom 6s ease-in-out 3s 1 normal forwards;
-    opacity: 0;
-    position: absolute;
-    z-index: 2;
-    width: 1080px;
-  }
-
   @keyframes seymour-zoom {
     0% {
       margin: 8em 0 0 0;
@@ -1934,13 +1882,7 @@ html {
     }
   }
 
-  .dolphins {
-    animation: dolphin-jump 2s ease-in-out 3s 1 normal forwards;
-    bottom: 0;
-    opacity: 0;
-    position: absolute;
-    z-index: 3;
-  }
+
 
     @keyframes dolphin-jump {
       0% {
@@ -1959,65 +1901,6 @@ html {
       }
     }
 
-  .parallax > use {
-    animation: move-forever 24s linear 4s infinite normal forwards;
-    transform-origin: 50% 50%;
-  }
-  .parallax > use:nth-child(1) {
-    animation-delay: -2s;
-  }
-  .parallax > use:nth-child(2) {
-    animation-delay: -2s;
-    animation-duration: 5s;
-  }
-  .parallax > use:nth-child(3) {
-    animation-delay: -4s;
-    animation-duration: 3s;
-  }
-
-  @keyframes move-forever{
-    0% {
-      transform: translate(-90px , 0%);
-    }
-    100% {
-      transform: translate(85px , 0%);
-    } 
-  }
-
-  .waves {
-    bottom: 0;
-    display: block;
-    height: 6em;
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    z-index: 3;
-    animation: waves-delay 9s ease-in-out -100ms 1 normal forwards;
-  }
-
-  @keyframes waves-delay {
-    0% {
-      opacity: 0;
-    }
-    90% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-
-  .sea-lion {
-    animation: sea-lion 3s ease-in-out 5s 1 normal forwards; 
-    top: 0;
-    display:  block;
-    opacity: 0;
-    position: absolute;
-    left: 0;
-    width: 150px;
-    z-index: 2;
-  }
-
   @keyframes sea-lion {
     0% {
       margin: 18em 0 0 20em;
@@ -2031,16 +1914,7 @@ html {
     } 
   }
 
-  .natural-bridges {
-    animation: natural-bridges-ani 6s ease-in-out 4s 1 normal forwards; 
-    top: 0;
-    display:  block;
-    opacity: 0;
-    position: absolute;
-    right: 0;
-    width: 150px;
-    z-index: 2;
-  }
+
 
   @keyframes natural-bridges-ani {
     0% {
@@ -2059,15 +1933,6 @@ html {
   }
   /* END SCENE 2 - 9 secs */
   /* SCENE 3 */
-  .ucsc-sign {
-    animation: ucsc-sign-zoom 7s ease-in-out 9s 1 normal forwards;
-    bottom: 0;
-    display: block;
-    opacity: 0;
-    width: 1080px;
-    position: absolute;
-    z-index: 3;
-  }
 
   @keyframes ucsc-sign-zoom {
     0% {
@@ -2088,16 +1953,6 @@ html {
     }
   }
 
-  .redwoods-sign {
-    animation: redwoods-sign-slide 5.75s ease-in-out 10s 1 normal forwards;
-    bottom: 1em;
-    display: block;
-    height: 472px;
-    opacity: 0;
-    position: absolute;
-    z-index: 2;
-    width: 1080px;
-  }
 
   @keyframes redwoods-sign-slide {
     0% {
@@ -2117,16 +1972,6 @@ html {
   /* END SCENE 3 */
 
   /* looping cloud */
-  .sign-cloud {
-    animation:  sign-cloud-fly-by 40s ease-in-out 10s infinite normal forwards;
-    height: 77px;
-    opacity: 0;
-    margin:  1em 0 0 -255px;
-    position: absolute;
-    width:  250px;
-    z-index: 230;
-  }
-
   @keyframes sign-cloud-fly-by {
     0% {
       opacity: 1;
@@ -2136,16 +1981,6 @@ html {
       opacity: 1;
       margin: 1em 0 0 1300px;
     }
-  }
-
-  .big-cloud {
-    animation:  big-cloud-fly-by 40s ease-in-out 16s infinite normal forwards;
-    height: 150px;
-    opacity: 0;
-    margin:  1em 0 0 -400px;
-    position: absolute;
-    width:  400px;
-    z-index: 20;
   }
 
   @keyframes big-cloud-fly-by {
@@ -2160,27 +1995,11 @@ html {
   }
 
   .deer {
-    animation: deer-walk steps(18) 2.5s 1;
-    animation-delay:  10s;
-    background: url('http://www.ucsc.edu/features/images/rachel-carson-college/deer-v1.svg') 0 93px no-repeat;
     bottom: 5em;
-    opacity: 0;
-    height: 93px;
-    position: absolute;
-    width: 150px;
-    z-index: 4;
   }
 
   .deer-two {
-    animation: deer-walk steps(18) 2.5s 1;
-    animation-delay:  11.5s;
-    background: url('http://www.ucsc.edu/features/images/rachel-carson-college/deer-v1.svg') 0 93px no-repeat;
     bottom: 4.5em;
-    opacity: 0;
-    height: 93px;
-    position: absolute;
-    width: 150px;
-    z-index: 4;
   }
 
   @keyframes deer-walk {
@@ -2239,11 +2058,7 @@ html {
   .tractor {
     animation: tractor-ani 4s ease-in-out 17s 1 normal forwards;
     bottom: 9em;
-    display: block;
     height: 291px;
-    left: 0;
-    opacity: 0;
-    position: absolute;
     width: 458px;
     z-index: 5;
   }
@@ -2261,16 +2076,6 @@ html {
     }
   }
 
-  .land-1 {
-    animation: land-1-ani 4s ease-in-out 17s 1 normal forwards;
-    display: block;
-    bottom: 0;
-    opacity: 0;
-    right: 0;
-    position: absolute;
-    z-index: 5;
-  }
-
   @keyframes land-1-ani {
     0%,
     100% {
@@ -2282,16 +2087,6 @@ html {
       opacity: 1;
       margin: 0;
     }
-  }
-
-  .land-2 {
-    animation: land-2-ani 4s ease-in-out 17.1s 1 normal forwards;
-    display: block;
-    bottom: 0;
-    opacity: 0;
-    right: 0;
-    position: absolute;
-    z-index: 4;
   }
 
   @keyframes land-2-ani {
@@ -2307,16 +2102,6 @@ html {
     }
   }
 
-  .land-3 {
-    animation: land-3-ani 4s ease-in-out 17.2s 1 normal forwards;
-    display: block;
-    bottom: 0;
-    opacity: 0;
-    right: 0;
-    position: absolute;
-    z-index: 3;
-  }
-
   @keyframes land-3-ani {
     0%,
     100% {
@@ -2330,16 +2115,6 @@ html {
     }
   }
 
-  .land-4 {
-    animation: land-4-ani 4s ease-in-out 17.3s 1 normal forwards;
-    display: block;
-    bottom: 0;
-    opacity: 0;
-    right: 0;
-    position: absolute;
-    z-index: 2;
-  }
-
   @keyframes land-4-ani {
     0%,
     100%{
@@ -2351,16 +2126,6 @@ html {
       opacity: 1;
       margin: 10em 0;
     }
-  }
-
-  .land-5 {
-    animation: land-5-ani 4s ease-in-out 17.4s 1 normal forwards;
-    display: block;
-    bottom: 0;
-    opacity: 0;
-    right: 0;
-    position: absolute;
-    z-index: 1;
   }
 
   @keyframes land-5-ani {
@@ -2482,94 +2247,6 @@ html {
     }
   }
 
-  /*BIRDS*/
-  .bird-1,
-  .bird-2,
-  .bird-animation-left,
-  .bird-aniamtion-right {
-    display: block;
-    position: absolute;
-  }
-
-  .bird-1,
-  .bird-2 {
-    height: 35px;
-    width: 75px;
-    z-index: 0;
-  }
-
-  .bird-1 {
-    top: 3.5em;
-    left: 45%;
-  }
-  .bird-2 {
-    top: 3em;
-    left: 52%;
-  }
-
-  .bird-animation-left,
-  .bird-animation-right {
-    z-index: 1000;
-  }
-
-  .bird-animation-left {
-    animation-delay: 5s;
-  }
-
-  .bird-animation-right {
-    float: right;
-    transform: rotateY(180deg);
-    animation-delay: 10s;
-  }
-
-  .bird-1,
-  .bird-2 {
-    animation: bird-1-animation steps(7) 1s infinite;
-    animation-delay: 3s;
-    background: url('http://www.ucsc.edu/features/images/holidays-2015/bird-animation.svg') 0 35px no-repeat;
-    opacity: .5;
-  }
-
-  .bird-animation-left,
-  .bird-animation-right {
-    animation: bird-2-animation steps(32) 5s infinite;
-    background: url('http://www.ucsc.edu/features/images/holidays-2015/bird-animation-left.svg') 0 48px no-repeat;
-    height: 48px;
-    width: 200px;
-  }
-
-  .bird-animation-right {
-    animation-delay: 8s;
-  }
-
-  .bird-animation-left {
-    animation-delay: 3s;
-  }
-
-  @keyframes bird-1-animation {
-    0% {
-      background-position: 0 0;
-    }
-    100% {
-      background-position: 0 -245px;
-    }
-  }
-
-  @keyframes bird-2-animation {
-    0% {
-      background-position: 0 0;
-      opacity: .75;
-    }
-    50% {
-      background-position: 0 -1600px;
-      opacity: .45;
-    }
-    100% {
-      background-position: 0 -1600px;
-      opacity: .1;
-    }
-  }
-  
 }
 
 
