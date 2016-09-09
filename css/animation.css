@@ -1082,8 +1082,8 @@ html {
   /* SCENE 5 31.125em */
   
   .rachel-carson-college {
-    width:  400px;
-    margin-left: -1.5em;
+    width:  105%;
+    margin-left: 0;
   }
   
   .rachel-text {
@@ -2507,5 +2507,6 @@ html {
   }
   
 }
+
 
 
