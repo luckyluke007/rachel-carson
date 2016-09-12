@@ -57,7 +57,7 @@ html {
   0% {
     height: 267.5px;
     margin: 10em 0 0 20em;
-    width: 267px;
+    width: 267px; 
     opacity: 1;
   }
   100% {
@@ -65,7 +65,7 @@ html {
     margin: -95em 0 0 -30em;
     width: 4000px;
     opacity: 0;
-  }
+  }  
 }
 
 /* END SCENE 1 CSS */
@@ -106,7 +106,7 @@ html {
     margin: -5em 0 0 -25em;
     opacity: 1;
     width: 400px;
-  }
+  } 
 }
 
 @keyframes cloud-right {
@@ -121,7 +121,7 @@ html {
     margin: 0em -25em 0 0;
     opacity: 1;
     width: 400px;
-  }
+  } 
 }
 
 
@@ -155,7 +155,7 @@ html {
     width: 4000px;
   }
 }
-
+  
 .dolphins {
   animation: dolphin-jump 2s ease-in-out 3s 1 normal forwards;
   bottom: 0;
@@ -203,7 +203,7 @@ html {
   }
   100% {
     transform: translate(85px , 0%);
-  }
+  } 
 }
 
 .waves {
@@ -230,7 +230,7 @@ html {
 }
 
 .sea-lion {
-  animation: sea-lion 3s ease-in-out 5s 1 normal forwards;
+  animation: sea-lion 3s ease-in-out 5s 1 normal forwards; 
   top: 0;
   display:  block;
   opacity: 0;
@@ -250,11 +250,11 @@ html {
     margin: 15em 0 0 -20em;
     opacity: 1;
     width: 250px;
-  }
+  } 
 }
 
 .natural-bridges {
-  animation: natural-bridges-ani 6s ease-in-out 4s 1 normal forwards;
+  animation: natural-bridges-ani 6s ease-in-out 4s 1 normal forwards; 
   top: 0;
   display:  block;
   opacity: 0;
@@ -297,7 +297,7 @@ html {
     opacity: 0;
     width: 1080px;
   }
-  20%,
+  20%, 
   95% {
     margin-left: -6.5em;
     opacity: 1;
@@ -411,19 +411,19 @@ html {
     margin: 0;
     opacity: 0;
   }
-
+  
   50% {
     background-position: 0 -1687.5px;
     margin: 0 0 0 149px;
     opacity: 1;
   }
-
+  
   51% {
     background-position: 0 0;
     margin: 0 0 0 150px;
     opacity: 1;
   }
-
+ 
   100% {
     background-position: 0 -1687.5px;
     margin: 0 0 0 300px;
@@ -586,7 +586,7 @@ html {
 }
 
 @keyframes land-5-ani {
-  0%,
+  0%, 
   100% {
     opacity: 0;
     margin: -14em 0;
@@ -666,7 +666,7 @@ html {
   animation: header-text 2s ease-in-out 23s 1 normal forwards;
   background: #d75c01;
   height: 100%;
-  max-height:  6.75em;
+  max-height:  8em;
   max-width: 1080px;
   opacity: 0;
   padding:  1em 0;
@@ -679,21 +679,21 @@ html {
 .rachel-text h1,
 .rachel-text-mobile h1 {
   color: #FFF;
-  display: block;
+  display: inline-block;
   margin: 0 0 0 1.5em;
   font-size: 3em;
   line-height: 1em;
   max-width: 375px;
+  padding-right: .5em;
   text-align: right;
-  with: 100%;
 }
 
 .rachel-text .teaser,
 .rachel-text-mobile .teaser {
   color: #FFF;
   float: right;
-  display: block;
-  margin: -5.25em 5em 0 0;
+  display: inline-block;
+  margin: .25em 3em 0 0;
   max-width: 350px;
   width: 100%;
 }
@@ -805,13 +805,13 @@ html {
     height: 400px;
     width: 100%;
   }
-
+  
   /* Scene 1 31.125em */
   @keyframes earth-zoom {
     0% {
       height: 267.5px;
       margin: 5em 0 0 0;
-      width: 267px;
+      width: 267px; 
       opacity: 1;
     }
     100% {
@@ -819,9 +819,9 @@ html {
       margin: -45em 0 0 -20em;
       width: 2000px;
       opacity: 0;
-    }
+    }  
   }
-
+  
   /* Scene 2 31.125em */
   @keyframes cloud-left {
     0% {
@@ -835,7 +835,7 @@ html {
       margin: -5em 0 0 -10em;
       opacity: 1;
       width: 163px;
-    }
+    } 
   }
 
   @keyframes cloud-right {
@@ -850,9 +850,9 @@ html {
       margin: 0em -11em 0 0;
       opacity: 1;
       width: 163px;
-    }
+    } 
   }
-
+  
   @keyframes seymour-zoom {
     0% {
       margin: 6em 0 0 -5em;
@@ -875,7 +875,7 @@ html {
       width: 2500px;
     }
   }
-
+  
   @keyframes sea-lion {
     0% {
       margin: 11em 0 0 6em;
@@ -886,9 +886,9 @@ html {
       margin: 15em 0 0 -6.5em;
       opacity: 1;
       width: 100px;
-    }
+    } 
   }
-
+  
   @keyframes natural-bridges-ani {
     0% {
       margin: 10em 6em 0 0;
@@ -904,7 +904,7 @@ html {
       width: 250px;
     }
   }
-
+  
   @keyframes dolphin-jump {
     0% {
       left: 60%;
@@ -921,24 +921,33 @@ html {
       transform:rotate(-360deg);
     }
   }
-
+ 
   .bird-2 {
     display: none;
   }
-
+  
   .bird-animation-right {
     display: none;
   }
-
+  
   /* SCENE 3 31.125em */
-
+  .ucsc-sign {
+    animation: ucsc-sign-zoom 7s ease-in-out 9s 1 normal forwards;
+    bottom: 0;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+  }
+  
   @keyframes ucsc-sign-zoom {
     0% {
       margin-left: 0;
       opacity: 0;
       width: 400px;
     }
-    20%,
+    20%, 
     95% {
       margin-left: -6.5em;
       opacity: 1;
@@ -950,9 +959,9 @@ html {
       width: 550px;
     }
   }
-
+  
   @keyframes redwoods-sign-slide {
-    0%,
+    0%, 
     100% {
       bottom:  -5em;
       opacity: 0;
@@ -963,15 +972,15 @@ html {
       opacity: 1;
     }
   }
-
+  
   .deer-two {
     display: none;
   }
-
+  
   .deer {
     bottom: 1em;
   }
-
+  
   @keyframes deer-walk {
     0% {
       background-position: 0 0;
@@ -997,12 +1006,12 @@ html {
       opacity: 0;
     }
   }
-
+  
   /* SCENE 4 31.125em */
   .casf-grass {
     width: 428px;
   }
-
+  
   @keyframes casf-grass-slidein {
     0%,
     100% {
@@ -1015,14 +1024,14 @@ html {
       margin: 0;
     }
   }
-
+  
   .tractor {
     bottom: 3.5em;
     height: 127px;
     width: 200px;
     z-index: 5;
   }
-
+  
   @keyframes land-1-ani {
     0%,
     100% {
@@ -1035,7 +1044,7 @@ html {
       margin: 0;
     }
   }
-
+  
   @keyframes land-2-ani {
     0%,
     100% {
@@ -1048,7 +1057,7 @@ html {
       margin: 1.5em 0;
     }
   }
-
+  
   @keyframes land-3-ani {
     0%,
     100% {
@@ -1061,7 +1070,7 @@ html {
       margin: 2.75em 0 2.75em .25em;
     }
   }
-
+  
   @keyframes land-4-ani {
     0%,
     100% {
@@ -1074,9 +1083,9 @@ html {
       margin: 3.75em 0 3.75em .25em;
     }
   }
-
+  
   @keyframes land-5-ani {
-    0%,
+    0%, 
     100% {
       opacity: 0;
       margin: 0 0 0 .5em;
@@ -1087,14 +1096,14 @@ html {
       margin: 5.25em 0 5.25em .5em;
     }
   }
-
+  
   /* SCENE 5 31.125em */
-
+  
   .rachel-carson-college {
     width:  105%;
     margin-left: 0;
   }
-
+  
   .rachel-text-mobile {
     animation: header-text 700ms ease-in-out 0s 1 normal forwards;
     background: #d75c01;
@@ -1105,11 +1114,11 @@ html {
     width: 100%;
     z-index: 0;
   }
-
+  
   .rachel-text {
     display: none;
   }
-
+  
   .rachel-text-mobile h1 {
     font-size: 1.5em;
     margin: 0;
@@ -1126,7 +1135,7 @@ html {
     max-width: 310px;
     width: 100%;
   }
-
+  
   .rachel-carson {
     animation:  rachel-carson-ani 2s ease-in-out 22.5s 1 normal forwards;
     bottom: -1em;
@@ -1137,7 +1146,7 @@ html {
     width: 115px;
     z-index: 16;
   }
-
+  
    @keyframes redwoods-slide {
     0% {
       bottom:  -15em;
@@ -1148,7 +1157,7 @@ html {
       opacity: 1;
     }
   }
-
+  
 }
 
 
@@ -1157,18 +1166,18 @@ html {
     height: 400px;
     max-width:  1080px;
   }
-
+  
   .billboard-container {
     height: 400px;
     width: 100%;
   }
-
+  
   /* Scene 1 min-width: 31.1875em */
    @keyframes earth-zoom {
     0% {
       height: 267.5px;
       margin: 5em 0 0 15em;
-      width: 267px;
+      width: 267px; 
       opacity: 1;
     }
     100% {
@@ -1176,11 +1185,11 @@ html {
       margin: -45em 0 0 -10em;
       width: 2000px;
       opacity: 0;
-    }
+    }  
   }
-
+  
   /* Scene 2 min-width: 31.1875em */
-
+  
   @keyframes cloud-left {
     0% {
       height: 31px;
@@ -1193,7 +1202,7 @@ html {
       margin: -5em 0 0 -10em;
       opacity: 1;
       width: 163px;
-    }
+    } 
   }
 
   @keyframes cloud-right {
@@ -1208,9 +1217,9 @@ html {
       margin: 0em -11em 0 0;
       opacity: 1;
       width: 163px;
-    }
+    } 
   }
-
+  
   @keyframes seymour-zoom {
     0% {
       margin: 6em 0 0;
@@ -1233,7 +1242,7 @@ html {
       width: 3000px;
     }
   }
-
+  
   @keyframes sea-lion {
     0% {
       margin: 11em 0 0 10em;
@@ -1244,9 +1253,9 @@ html {
       margin: 14em 0 0 -12em;
       opacity: 1;
       width: 200px;
-    }
+    } 
   }
-
+  
   @keyframes natural-bridges-ani {
     0% {
       margin: 10.5em 10em 0 0;
@@ -1262,7 +1271,7 @@ html {
       width: 500px;
     }
   }
-
+  
   @keyframes dolphin-jump {
     0% {
       left: 85%;
@@ -1279,24 +1288,24 @@ html {
       transform:rotate(-360deg);
     }
   }
-
+ 
   .bird-2 {
     display: none;
   }
-
+  
   .bird-animation-right {
     display: none;
   }
-
+  
   /* Scene 3 min-width: 31.1875em */
-
+  
   @keyframes ucsc-sign-zoom {
     0% {
       margin-left: 0;
       opacity: 0;
       width: 600px;
     }
-    20%,
+    20%, 
     95% {
       margin-left: -8em;
       opacity: 1;
@@ -1308,9 +1317,9 @@ html {
       width: 900px;
     }
   }
-
+  
   @keyframes redwoods-sign-slide {
-    0%,
+    0%, 
     100% {
       bottom:  -5em;
       opacity: 0;
@@ -1321,16 +1330,16 @@ html {
       opacity: 1;
     }
   }
-
+  
   .deer-two {
     display: block;
     bottom: 1.25em;
   }
-
+  
   .deer {
     bottom: 1em;
   }
-
+  
   @keyframes deer-walk {
     0% {
       background-position: 0 0;
@@ -1356,14 +1365,14 @@ html {
       opacity: 0;
     }
   }
-
+  
   /* Scene 4 min-width: 31.1875em */
-
+  
   .casf-grass {
     width: 100%;
     z-index: 7;
   }
-
+  
   @keyframes casf-grass-slidein {
     0%,
     100% {
@@ -1376,14 +1385,14 @@ html {
       margin: 0;
     }
   }
-
+  
   .tractor {
     bottom: 4em;
     height: 191px;
     width: 300px;
     z-index: 6;
   }
-
+  
   @keyframes land-1-ani {
     0%,
     100% {
@@ -1396,7 +1405,7 @@ html {
       margin: 0 0 0 .25em;
     }
   }
-
+  
   @keyframes land-2-ani {
     0%,
     100% {
@@ -1409,7 +1418,7 @@ html {
       margin: 1em 0 1em .25em;
     }
   }
-
+  
   @keyframes land-3-ani {
     0%,
     100% {
@@ -1422,7 +1431,7 @@ html {
       margin: 3em 0 3em .25em;
     }
   }
-
+  
   @keyframes land-4-ani {
     0%,
     100%{
@@ -1435,9 +1444,9 @@ html {
       margin: 4em 0 4em .25em;
     }
   }
-
+  
   @keyframes land-5-ani {
-    0%,
+    0%, 
     100% {
       opacity: 0;
       margin: 0 0 0 .25em;
@@ -1448,9 +1457,9 @@ html {
       margin: 6em 0 6em .25em;
     }
   }
-
+  
   /* Scene 5 min-width: 31.1875em */
-
+  
   .rachel-text-mobile {
     animation: header-text 700ms ease-in-out 0s 1 normal forwards;
     background: #d75c01;
@@ -1461,11 +1470,11 @@ html {
     width: 100%;
     z-index: 0;
   }
-
+  
   .rachel-text {
     display: none;
   }
-
+  
   .rachel-text-mobile h1 {
     font-size: 2em;
     margin: 0;
@@ -1482,7 +1491,7 @@ html {
     max-width: 95%;
     width: 100%;
   }
-
+  
   .rachel-carson {
     animation:  rachel-carson-ani 2s ease-in-out 22.5s 1 normal forwards;
     bottom: -1em;
@@ -1493,7 +1502,7 @@ html {
     width: 125px;
     z-index: 16;
   }
-
+  
   @keyframes redwoods-slide {
     0% {
       bottom:  -15em;
@@ -1510,7 +1519,7 @@ html {
 /*  iphone 6*/
 
 @media screen and (min-width: 37.5em) {
-
+  
   /* Scene 2 */
   @keyframes seymour-zoom {
     0% {
@@ -1534,7 +1543,7 @@ html {
       width: 3000px;
     }
   }
-
+  
   @keyframes sea-lion {
     0% {
       margin: 11.5em 0 0 10em;
@@ -1545,9 +1554,9 @@ html {
       margin: 14em 0 0 -13em;
       opacity: 1;
       width: 200px;
-    }
+    } 
   }
-
+  
   @keyframes natural-bridges-ani {
     0% {
       margin: 11.75em 10em 0 0;
@@ -1563,7 +1572,7 @@ html {
       width: 500px;
     }
   }
-
+  
    @keyframes dolphin-jump {
     0% {
       left: 85%;
@@ -1580,14 +1589,14 @@ html {
       transform:rotate(-360deg);
     }
   }
-
+  
   @keyframes ucsc-sign-zoom {
     0% {
       margin-left: 0;
       opacity: 0;
       width: 800px;
     }
-    20%,
+    20%, 
     95% {
       margin-left: -8em;
       opacity: 1;
@@ -1599,16 +1608,16 @@ html {
       width: 1000px;
     }
   }
-
+  
   .tractor {
     bottom: 6.5em;
     height: 191px;
     width: 300px;
     z-index: 6;
   }
-
+  
   @keyframes land-5-ani {
-    0%,
+    0%, 
     100% {
       opacity: 0;
       margin: 0;
@@ -1619,7 +1628,7 @@ html {
       margin: 6.6em 0;
     }
   }
-
+  
  .rachel-text-mobile {
     animation: header-text 700ms ease-in-out 0s 1 normal forwards;
     background: #d75c01;
@@ -1630,7 +1639,7 @@ html {
     width: 100%;
     z-index: 0;
   }
-
+  
   .rachel-text-mobile h1 {
     font-size: 2em;
     margin: 0;
@@ -1647,11 +1656,11 @@ html {
     max-width: 95%;
     width: 100%;
   }
-
+  
   .rachel-text {
     display: none;
   }
-
+  
   @keyframes redwoods-slide {
     0% {
       bottom:  -15em;
@@ -1668,7 +1677,7 @@ html {
 /* ipad portrait */
 
 @media screen and (min-width: 48em) {
-
+  
   @keyframes seymour-zoom {
     0% {
       margin: 6em 0 0;
@@ -1690,12 +1699,12 @@ html {
       opacity: 0;
       width: 3000px;
     }
-  }
-
+  } 
+  
   .bird-animation-right {
     display: block;
   }
-
+  
   @keyframes sea-lion {
     0% {
       margin: 12em 0 0 10em;
@@ -1706,9 +1715,9 @@ html {
       margin: 14em 0 0 -12.5em;
       opacity: 1;
       width: 200px;
-    }
+    } 
   }
-
+  
   @keyframes natural-bridges-ani {
     0% {
       margin: 11.5em 10em 0 0;
@@ -1724,7 +1733,7 @@ html {
       width: 500px;
     }
   }
-
+  
   @keyframes dolphin-jump {
     0% {
       left: 85%;
@@ -1741,14 +1750,14 @@ html {
       transform:rotate(-360deg);
     }
   }
-
+  
   /* Scene 4 min-width: 48em */
-
+  
   .casf-grass {
     width: 100%;
     z-index: 7;
   }
-
+  
   @keyframes casf-grass-slidein {
     0%,
     100% {
@@ -1761,14 +1770,14 @@ html {
       margin: 0;
     }
   }
-
+  
   .tractor {
     bottom: 6.75em;
     height: 191px;
     width: 300px;
     z-index: 6;
   }
-
+  
   @keyframes land-1-ani {
     0%,
     100% {
@@ -1781,7 +1790,7 @@ html {
       margin: -2em 0 -2em .25em;
     }
   }
-
+  
   @keyframes land-2-ani {
     0%,
     100% {
@@ -1794,7 +1803,7 @@ html {
       margin: 0 0 0 .25em;
     }
   }
-
+  
   @keyframes land-3-ani {
     0%,
     100% {
@@ -1807,7 +1816,7 @@ html {
       margin: 1em 0 3em .25em;
     }
   }
-
+  
   @keyframes land-4-ani {
     0%,
     100%{
@@ -1820,9 +1829,9 @@ html {
       margin: 4em 0 4em .25em;
     }
   }
-
+  
   @keyframes land-5-ani {
-    0%,
+    0%, 
     100% {
       opacity: 0;
       margin: 0 0 0 .25em;
@@ -1833,7 +1842,7 @@ html {
       margin: 7em 0 7em .25em;
     }
   }
-
+  
  .rachel-text-mobile {
     animation: header-text 700ms ease-in-out 0s 1 normal forwards;
     height: auto;
@@ -1843,7 +1852,7 @@ html {
     width: 100%;
     z-index: 0;
   }
-
+  
   .rachel-text-mobile h1 {
     font-size: 2em;
     margin: 0;
@@ -1860,11 +1869,11 @@ html {
     max-width: 95%;
     width: 100%;
   }
-
+  
   .rachel-text {
     display: none;
   }
-
+  
   @keyframes redwoods-slide {
     0% {
       bottom:  -15em;
@@ -1875,15 +1884,15 @@ html {
       opacity: 1;
     }
   }
-
+  
   .bird-2 {
     display: block;
   }
-
+  
 }
 
 @media screen and (min-width: 60em) {
-
+  
   .billboard-content {
     height: 600px;
     width: 100%;
@@ -1896,12 +1905,12 @@ html {
   }
 
   /*SCENE 1 CSS */
-
+  
   @keyframes earth-zoom {
     0% {
       height: 267.5px;
       margin: 10em 0 0 20em;
-      width: 267px;
+      width: 267px; 
       opacity: 1;
     }
     100% {
@@ -1909,7 +1918,7 @@ html {
       margin: -95em 0 0 -30em;
       width: 4000px;
       opacity: 0;
-    }
+    }  
   }
 
   /* SCENE 2 */
@@ -1925,7 +1934,7 @@ html {
       margin: -5em 0 0 -25em;
       opacity: 1;
       width: 400px;
-    }
+    } 
   }
 
   @keyframes cloud-right {
@@ -1940,7 +1949,7 @@ html {
       margin: 0em -25em 0 0;
       opacity: 1;
       width: 400px;
-    }
+    } 
   }
 
   @keyframes seymour-zoom {
@@ -1993,7 +2002,7 @@ html {
       margin: 15em 0 0 -20em;
       opacity: 1;
       width: 250px;
-    }
+    } 
   }
 
 
@@ -2022,7 +2031,7 @@ html {
       opacity: 0;
       width: 1080px;
     }
-    20%,
+    20%, 
     95% {
       margin-left: -6.5em;
       opacity: 1;
@@ -2208,7 +2217,7 @@ html {
   }
 
   @keyframes land-5-ani {
-    0%,
+    0%, 
     100% {
       opacity: 0;
       margin: -14em 0;
@@ -2288,7 +2297,7 @@ html {
     background: #d75c01;
     display: block;
     height: 100%;
-    max-height:  6.75em;
+    max-height:  8em;
     max-width: 1080px;
     opacity: 0;
     padding:  1em 0;
@@ -2297,31 +2306,39 @@ html {
     width: 100%;
     z-index: 20;
   }
-
+  
   .rachel-text-mobile {
     display: none;
   }
 
   .rachel-text h1 {
     color: #FFF;
-    display: block;
-    margin: 0 1em;
+    display: inline-block;
     font-size: 3em;
     line-height: 1em;
     max-width: 360px;
+    padding-right: .5em;
     text-align: right;
-    with: 100%;
   }
 
   .rachel-text .teaser {
     color: #FFF;
     float: right;
-    display: block;
-    margin: -5.75em 4em 0 0;
+    display: inline-block;
+    margin: .25em 3em 0 0;
     max-width: 350px;
     width: 100%;
   }
-
+  
+  @keyframes header-text {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
   .bird-2 {
     display: block;
   }
