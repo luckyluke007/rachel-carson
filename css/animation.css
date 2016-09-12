@@ -7,6 +7,12 @@ html {
   width: 100%;
 }
 
+/* Remove this line and everything bove it before adding to WCMS. */
+
+#carousel {
+  height: 600px;
+}
+
 .billboard-wrap {
   display:  block;
   max-height: 600px;
@@ -660,7 +666,7 @@ html {
   animation: header-text 2s ease-in-out 23s 1 normal forwards;
   background: #d75c01;
   height: 100%;
-  max-height:  6.75em;
+  max-height:  8em;
   max-width: 1080px;
   opacity: 0;
   padding:  1em 0;
@@ -673,21 +679,21 @@ html {
 .rachel-text h1,
 .rachel-text-mobile h1 {
   color: #FFF;
-  display: block;
+  display: inline-block;
   margin: 0 0 0 1.5em;
   font-size: 3em;
   line-height: 1em;
   max-width: 375px;
+  padding-right: .5em;
   text-align: right;
-  with: 100%;
 }
 
 .rachel-text .teaser,
 .rachel-text-mobile .teaser {
   color: #FFF;
   float: right;
-  display: block;
-  margin: -5.25em 5em 0 0;
+  display: inline-block;
+  margin: .25em 3em 0 0;
   max-width: 350px;
   width: 100%;
 }
@@ -809,8 +815,8 @@ html {
       opacity: 1;
     }
     100% {
-      height: 4000.5px;
-      margin: -105em 0 0 -20em;
+      height: 2000.5px;
+      margin: -45em 0 0 -20em;
       width: 2000px;
       opacity: 0;
     }  
@@ -841,7 +847,7 @@ html {
     }
     100% {
       height: 50px;
-      margin: 0em -10em 0 0;
+      margin: 0em -11em 0 0;
       opacity: 1;
       width: 163px;
     } 
@@ -925,6 +931,15 @@ html {
   }
   
   /* SCENE 3 31.125em */
+  .ucsc-sign {
+    animation: ucsc-sign-zoom 7s ease-in-out 9s 1 normal forwards;
+    bottom: 0;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+  }
   
   @keyframes ucsc-sign-zoom {
     0% {
@@ -1166,8 +1181,8 @@ html {
       opacity: 1;
     }
     100% {
-      height: 4000.5px;
-      margin: -105em 0 0 -10em;
+      height: 2000.5px;
+      margin: -45em 0 0 -10em;
       width: 2000px;
       opacity: 0;
     }  
@@ -2282,7 +2297,7 @@ html {
     background: #d75c01;
     display: block;
     height: 100%;
-    max-height:  6.75em;
+    max-height:  8em;
     max-width: 1080px;
     opacity: 0;
     padding:  1em 0;
@@ -2298,22 +2313,30 @@ html {
 
   .rachel-text h1 {
     color: #FFF;
-    display: block;
-    margin: 0 1em;
+    display: inline-block;
     font-size: 3em;
     line-height: 1em;
     max-width: 360px;
+    padding-right: .5em;
     text-align: right;
-    with: 100%;
   }
 
   .rachel-text .teaser {
     color: #FFF;
     float: right;
-    display: block;
-    margin: -5.75em 4em 0 0;
+    display: inline-block;
+    margin: .25em 3em 0 0;
     max-width: 350px;
     width: 100%;
+  }
+  
+  @keyframes header-text {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   
   .bird-2 {
@@ -2321,6 +2344,3 @@ html {
   }
 
 }
-
-
-
