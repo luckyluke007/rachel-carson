@@ -683,9 +683,9 @@ html {
   margin: 0 0 0 1.5em;
   font-size: 3em;
   line-height: 1em;
-  max-width: 375px;
   padding-right: .5em;
   text-align: right;
+  width:  33%;
 }
 
 .rachel-text .teaser,
@@ -694,8 +694,7 @@ html {
   float: right;
   display: inline-block;
   margin: .25em 3em 0 0;
-  max-width: 350px;
-  width: 100%;
+  width: 35%;
 }
 
 @keyframes header-text {
@@ -2318,6 +2317,7 @@ html {
     max-width: 360px;
     padding-right: .5em;
     text-align: right;
+    width: 33%;
   }
 
   .rachel-text .teaser {
@@ -2325,8 +2325,7 @@ html {
     float: right;
     display: inline-block;
     margin: .25em 3em 0 0;
-    max-width: 350px;
-    width: 100%;
+    width: 35%;
   }
   
   @keyframes header-text {
