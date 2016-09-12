@@ -666,14 +666,22 @@ html {
   animation: header-text 2s ease-in-out 23s 1 normal forwards;
   background: #d75c01;
   height: 100%;
-  max-height:  8em;
   max-width: 1080px;
   opacity: 0;
-  padding:  1em 0;
   position: absolute;
   top: 26em;
   width: 100%;
   z-index: 20;
+}
+
+.rachel-text-mobile {
+  max-height:  6.75em;
+  padding:  1em 0;
+}
+
+.rachel-text {
+  max-height:  8em;
+  padding:  1em 0;
 }
 
 .rachel-text h1,
@@ -685,6 +693,9 @@ html {
   line-height: 1em;
   padding-right: .5em;
   text-align: right;
+}
+
+.rachel-text h1 {
   width:  33%;
 }
 
@@ -694,6 +705,9 @@ html {
   float: right;
   display: inline-block;
   margin: .25em 3em 0 0;
+}
+
+.rachel-text .teaser {
   width: 35%;
 }
 
@@ -1092,7 +1106,7 @@ html {
     10%,
     90% {
       opacity: 1;
-      margin: 5.25em 0 5.25em .5em;
+      margin: 5em 0 5em .5em;
     }
   }
   
@@ -2342,3 +2356,5 @@ html {
   }
 
 }
+
+
