@@ -665,7 +665,6 @@ html {
 .rachel-text-mobile {
   animation: header-text 2s ease-in-out 23s 1 normal forwards;
   background: #d75c01;
-  height: 100%;
   max-width: 1080px;
   opacity: 0;
   position: absolute;
@@ -1119,7 +1118,6 @@ html {
   .rachel-text-mobile {
     animation: header-text 700ms ease-in-out 0s 1 normal forwards;
     background: #d75c01;
-    height: auto;
     opacity: 0;
     position: static;
     top: 0;
@@ -1641,7 +1639,6 @@ html {
  .rachel-text-mobile {
     animation: header-text 700ms ease-in-out 0s 1 normal forwards;
     background: #d75c01;
-    height: auto;
     opacity: 0;
     position: static;
     top: 0;
@@ -1854,7 +1851,6 @@ html {
   
  .rachel-text-mobile {
     animation: header-text 700ms ease-in-out 0s 1 normal forwards;
-    height: auto;
     opacity: 0;
     position: static;
     top: 0;
