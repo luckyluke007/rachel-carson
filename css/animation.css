@@ -1228,16 +1228,14 @@ html {
   @keyframes redwoods-slide {
     0% {
       bottom:  -15em;
-      height: 100%;
-      max-height: 472px;
+      height: auto;
       max-width: 1080px;
       opacity: 0;
       width: 100%;
     }
     100% {
       bottom:  1em;
-      height: 100%;
-      max-height: 472px;
+      height: auto;
       max-width: 1080px;
       opacity: 1;
       width: 100%;
