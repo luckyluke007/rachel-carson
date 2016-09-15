@@ -134,21 +134,25 @@ html {
 
 @keyframes seymour-zoom {
   0% {
+    height: 97px;
     margin: 8em 0 0 0;
     opacity: 0;
     width: 1080px;
   }
   5% {
+    height: 97px;
     margin: 8em 0 0 0;
     opacity: .25;
     width: 1080px;
   }
   95% {
+    height:  359px;
     margin: 1em 0 0 -65em;
     opacity: 1;
     width: 4000px;
   }
   100% {
+    height:  359px;
     margin: 1em 0 0 -65em;
     opacity: 0;
     width: 4000px;
@@ -163,22 +167,24 @@ html {
   z-index: 3;
 }
 
-  @keyframes dolphin-jump {
-    0% {
-      left: 60%;
-      margin: 0 0 -8em;
-      opacity: 1;
-      width: 200px;
-      transform:rotate(0);
-    }
-    100% {
-      left: 10%;
-      margin: 0 0 -23em;
-      opacity: 1;
-      width: 600px;
-      transform:rotate(-360deg);
-    }
+@keyframes dolphin-jump {
+  0% {
+    height: 464px;
+    left: 60%;
+    margin: 0 0 -8em;
+    opacity: 1;
+    width: 200px;
+    transform: rotate(0deg);
   }
+  100% {
+    height: 1392px;
+    left: 10%;
+    margin: 0 0 -50em;
+    opacity: 1;
+    width: 600px;
+    transform: rotate(-360deg);
+  }
+}
 
 .parallax > use {
   animation: move-forever 24s linear 4s infinite normal forwards;
@@ -235,17 +241,18 @@ html {
   opacity: 0;
   position: absolute;
   left: 0;
-  width: 150px;
   z-index: 2;
 }
 
 @keyframes sea-lion {
   0% {
+    height: 23px;
     margin: 18em 0 0 20em;
     opacity: .8;
     width: 25px;
   }
   100% {
+    height: 230px;
     margin: 15em 0 0 -20em;
     opacity: 1;
     width: 250px;
@@ -265,6 +272,7 @@ html {
 
 @keyframes natural-bridges-ani {
   0% {
+    height: 16px;
     margin: 16em 20em 0 0;
     opacity: .6;
     width: 50px;
@@ -273,6 +281,7 @@ html {
     opacity: 1;
   }
   100% {
+    height: 195px;
     margin: 20em -40em 0 0;
     opacity: 1;
     width: 600px;
@@ -285,27 +294,29 @@ html {
   bottom: 0;
   display: block;
   opacity: 0;
-  width: 1080px;
   position: absolute;
   z-index: 3;
 }
 
 @keyframes ucsc-sign-zoom {
   0% {
+    height: 531px;
     margin-left: 0;
     opacity: 0;
     width: 1080px;
   }
-  20%, 
+  20%,
   95% {
-    margin-left: -6.5em;
+    height: 833px;
+    margin-left: -12em;
     opacity: 1;
-    width: 1500px;
+    width: 1694px;
   }
   100% {
-    margin-left: -6.5em;
+    height: 833px;
+    margin-left: -12em;
     opacity: 0;
-    width: 1500px;
+    width: 1694px;
   }
 }
 
@@ -447,13 +458,17 @@ html {
 @keyframes casf-grass-slidein {
   0%,
   100% {
+    height: 340px;
     opacity: 0;
     margin: -12em 0;
+    width: 1080px;
   }
   10%,
   90% {
+    height: 340px;
     opacity: 1;
     margin: 0;
+    width: 1080px;
   }
 }
 
@@ -495,13 +510,17 @@ html {
 @keyframes land-1-ani {
   0%,
   100% {
+    height: 183px;
     opacity: 0;
     margin: -14em 0;
+    width: 1080px;
   }
   10%,
   90% {
+    height: 183px;
     opacity: 1;
     margin: 0;
+    width: 1080px;
   }
 }
 
@@ -518,13 +537,17 @@ html {
 @keyframes land-2-ani {
   0%,
   100% {
+    height: 169px;
     opacity: 0;
     margin: -14em 0;
+    width: 1080px;
   }
   10%,
   90% {
+    height: 169px;
     opacity: 1;
     margin: 4em 0;
+    width: 1080px;
   }
 }
 
@@ -541,13 +564,17 @@ html {
 @keyframes land-3-ani {
   0%,
   100% {
+    height: 119px;
     opacity: 0;
     margin: -14em 0;
+    width: 1080px;
   }
   10%,
   90% {
+    height: 119px;
     opacity: 1;
     margin: 8em 0;
+    width: 1080px;
   }
 }
 
@@ -564,13 +591,17 @@ html {
 @keyframes land-4-ani {
   0%,
   100%{
+    height: 90px;
     opacity: 0;
     margin: -14em 0;
+    width: 1080px;
   }
   10%,
   90% {
+    height: 90px;
     opacity: 1;
     margin: 10em 0;
+    width: 1080px;
   }
 }
 
@@ -587,13 +618,17 @@ html {
 @keyframes land-5-ani {
   0%, 
   100% {
+    height: 53px;
     opacity: 0;
     margin: -14em 0;
+    width: 1080px;
   }
   10%,
   90% {
+    height: 53px;
     opacity: 1;
     margin: 14em 0;
+    width: 1080px;
   }
 }
 
@@ -610,12 +645,16 @@ html {
 
 @keyframes rcc {
   0% {
+    height: 368px;
     bottom: -10em;
     opacity: 0;
+    width:  1080px;
   }
   100% {
+    height: 368px;
     opacity: 1;
     bottom: 0;
+    width:  1080px;
   }
 }
 
@@ -647,16 +686,19 @@ html {
   left: 42%;
   opacity: 0;
   position: absolute;
-  width: 200px;
   z-index: 22;
 }
 
 @keyframes rachel-carson-ani {
   0% {
-    opacity: 0
+    height: 474px;
+    opacity: 0;
+    width: 200px;
   }
   100% {
+    height: 474px;
     opacity: 1;
+    width: 200px;
   }
 }
 
