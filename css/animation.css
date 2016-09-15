@@ -1594,7 +1594,6 @@ html {
     left: 42%;
     opacity: 0;
     position: absolute;
-    width: 125px;
     z-index: 16;
   }
   
@@ -1766,6 +1765,19 @@ html {
     padding: .6em .6em 0;
     max-width: 95%;
     width: 100%;
+  }
+  
+  @keyframes rachel-carson-ani {
+    0% {
+      height: 415px;
+      opacity: 0;
+      width: 175px;
+    }
+    100% {
+      height: 415px;
+      opacity: 1;
+      width: 175px;
+    }
   }
   
   .rachel-text {
