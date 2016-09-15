@@ -1207,6 +1207,19 @@ html {
     z-index: 16;
   }
   
+  @keyframes rachel-carson-ani {
+    0% {
+      height: 237px;
+      opacity: 0;
+      width: 100px;
+    }
+    100% {
+      height: 237px;
+      opacity: 1;
+      width: 100px;
+    }
+  }
+  
    @keyframes redwoods-slide {
     0% {
       bottom:  -15em;
