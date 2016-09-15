@@ -1151,9 +1151,19 @@ html {
   
   /* SCENE 5 31.125em */
   
-  .rachel-carson-college {
-    width:  105%;
-    margin-left: 0;
+  @keyframes rcc {
+    0% {
+      height: 204px;
+      bottom: -10em;
+      opacity: 0;
+      width:  600px;
+    }
+    100% {
+      height: 204px;
+      opacity: 1;
+      bottom: 0;
+      width:  600px;
+    }
   }
   
   .rachel-text-mobile {
@@ -2390,6 +2400,5 @@ html {
   }
 
 }
-
 
 
