@@ -1225,13 +1225,13 @@ html {
    @keyframes redwoods-slide {
     0% {
       height: auto;
-      bottom:  -15em;
+      bottom:  0;
       opacity: 0;
       width: 100%;
     }
     100% {
       height: auto;
-      bottom: -10em;
+      bottom: 0;
       opacity: 1;
       width: 100%;
     }
